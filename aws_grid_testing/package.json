@@ -1,0 +1,9 @@
+{
+  "name": "aws_grid_testing",
+  "version": "0.0.1",
+  "description": "Validating functionality of AWS_Grid",
+  "main": "index.js",
+  "dependencies":{
+    "nightwatch": "^0.8.3"
+  }
+}

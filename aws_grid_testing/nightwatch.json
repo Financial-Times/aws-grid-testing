@@ -1,0 +1,151 @@
+
+{
+  "src_folders" : ["tests"],
+  "output_folder" : "./reports",
+  "selenium" : {
+    "start_process" : false,
+    "server_path" : "",
+    "log_path" : ""
+  },
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "${TEST_URL}",
+      "selenium_port"  : "${AWS_GRID_PORT}",
+      "selenium_host"  : "${AWS_GRID_HOST}",
+      "username": "${AWS_GRID_USER}",
+      "access_key": "${AWS_GRID_PASS}",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : true,
+        "path" : "./screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "version": "latest-1",
+        "platform": "WINDOWS"
+      }
+    },
+    "chrome_latest" : {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "version": "latest",
+        "platform": "WINDOWS"
+      }
+    },
+    "chrome_latest-1" : {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "version": "latest-1",
+        "platform": "WINDOWS"
+      }
+    },
+    "firefox_latest" : {
+      "desiredCapabilities": {
+        "browserName": "firefox",
+        "version": "latest",
+        "platform": "WINDOWS"
+      }
+    },
+    "firefox_latest-1" : {
+      "desiredCapabilities": {
+        "browserName": "firefox",
+        "version": "latest-1",
+        "platform": "WINDOWS"
+      }
+    },
+    "ie8" : {
+      "desiredCapabilities": {
+        "browserName": "internet explorer",
+        "version": "8",
+        "platform": "WINDOWS"
+      }
+    },
+    "ie9" : {
+      "desiredCapabilities": {
+        "browserName": "internet explorer",
+        "version": "9",
+        "platform": "WINDOWS"
+      }
+    },
+    "ie10" : {
+      "desiredCapabilities": {
+        "browserName": "internet explorer",
+        "version": "10",
+        "platform": "WINDOWS"
+      }
+    },
+    "ie11" : {
+      "desiredCapabilities": {
+        "browserName": "internet explorer",
+        "version": "11",
+        "platform": "WINDOWS"
+      }
+    },
+    "edge" : {
+      "desiredCapabilities": {
+        "browserName": "MicrosoftEdge",
+        "platform": "WINDOWS"
+      }
+    },
+    "safari8" : {
+      "desiredCapabilities": {
+        "browserName": "safari",
+        "version": "8",
+        "platform": "MAC"
+      }
+    },
+    "nexus_7_51" : {
+      "desiredCapabilities": {
+        "browserName": "Chrome",
+        "platformVersion": "5.1",
+        "version":"5_1",
+        "deviceName": "015d13ab470c1402",
+        "platformName": "Android"
+      }
+    },
+    "nexus_7_511" : {
+      "desiredCapabilities": {
+        "browserName": "Chrome",
+        "platformVersion": "5.1.1",
+        "version":"5_1_1",
+        "deviceName": "015d188470340a0a",
+        "platformName": "Android"
+      }
+    },
+    "note_4_4_2" : {
+      "desiredCapabilities": {
+        "browserName": "Chrome",
+        "platformVersion": "4.4.2",
+        "version": "4_4_2",
+        "deviceName": "4df111ae11877f25",
+        "platformName": "Android"
+      }
+    },
+    "iphone8_3" : {
+      "desiredCapabilities": {
+        "browserName": "Safari",
+        "platformVersion": "8.3",
+        "version":"8_3",
+        "deviceName": "FT SPROD IPHONE 5CB",
+        "platformName": "iOS"
+      }
+    },
+    "ipad_et_1" : {
+      "desiredCapabilities": {
+        "browserName": "Safari",
+        "platformVersion": "8.4.1",
+        "version":"8_4_1",
+        "deviceName": "Automated iPad 1",
+        "platformName": "iOS"
+      }
+    },
+    "amazonTest" : {
+      "desiredCapabilities": {
+        "debugHostName" : "Amazon",
+        "browserName": "firefox",
+        "version": "latest",
+        "platform": "WINDOWS"
+      }
+    }
+  }
+}
