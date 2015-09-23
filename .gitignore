@@ -2,4 +2,4 @@
 reports
 screenshots
 .idea
-node_modules
+*.iml
