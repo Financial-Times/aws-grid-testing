@@ -7,4 +7,4 @@ Be sure to set environment variables:
 
 To run:
 
-`./nightwatch -t {test you want to run}`
+`./nightwatch -t {test you want to run}`  or  `npm test`
