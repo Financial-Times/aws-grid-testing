@@ -25,6 +25,13 @@
         "platform": "WINDOWS"
       }
     },
+    "firefox_linux" : {
+      "desiredCapabilities": {
+        "browserName": "firefox",
+        "version": "38",
+        "platform": "LINUX"
+      }
+    },
     "chrome_latest" : {
       "desiredCapabilities": {
         "browserName": "chrome",
