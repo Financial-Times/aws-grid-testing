@@ -25,6 +25,15 @@
         "platform": "WINDOWS"
       }
     },
+    "no_proxy_aws_hub":{
+      "selenium_port"  : "${AWS_GRID_PORT}",
+      "selenium_host"  : "${AWS_GRID_DIRECT_HOST}",
+      "desiredCapabilities": {
+        "browserName": "firefox",
+        "version": "latest-1",
+        "platform": "WINDOWS"
+      }
+    },
     "firefox_linux" : {
       "desiredCapabilities": {
         "browserName": "firefox",
